@@ -7,18 +7,13 @@
     <title>SiteVision Content Tree Expander</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <style>
-    /*
- * Globals
- */
-    /* Links */
-
+    
     a,
     a:focus,
     a:hover {
         color: #fff;
     }
-    /* Custom default button */
-
+    
     .btn-secondary,
     .btn-secondary:hover,
     .btn-secondary:focus {
@@ -28,10 +23,7 @@
         background-color: #fff;
         border: .05rem solid #fff;
     }
-    /*
- * Base structure
- */
-
+    
     html,
     body {
         height: 100%;
@@ -49,10 +41,7 @@
     .cover-container {
         max-width: 42em;
     }
-    /*
- * Header
- */
-
+    
     .masthead {
         margin-bottom: 2rem;
     }
@@ -91,9 +80,6 @@
             float: right;
         }
     }
-    /*
- * Cover
- */
 
     .cover {
         padding: 0 1.5rem;
@@ -103,10 +89,7 @@
         padding: .75rem 1.25rem;
         font-weight: 700;
     }
-    /*
- * Footer
- */
-
+    
     .mastfoot {
         color: rgba(255, 255, 255, .5);
     }
@@ -115,7 +98,8 @@
 
 <body class="text-center">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <main role="main" class="inner cover">
+        <div class="masthead mb-auto"></div>
+      <main role="main" class="inner cover">
             <h1 class="cover-heading">SiteVision Content Tree Expander</h1>
             <p class="lead">Expand the content tree in SiteVision from a bookmarklet</p>
             <p class="lead">
@@ -124,6 +108,7 @@
     </a>
             </p>
         </main>
+        <div class="mastfoot mt-auto"></div>
     </div>
 </body>
 
